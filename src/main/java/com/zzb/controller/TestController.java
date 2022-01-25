@@ -1,5 +1,6 @@
 package com.zzb.controller;
 
+
 import com.alibaba.nacos.api.config.annotation.NacosValue;
 import com.alibaba.nacos.spring.context.annotation.config.NacosPropertySource;
 import io.swagger.annotations.Api;
@@ -22,5 +23,11 @@ public class TestController {
     @PostMapping(value = "/getNacosSetting")
     public String getNacosSetting(){
         return testProperties;
+    }
+
+    @ApiOperation(value="test接口",notes = "\n开发者：郑炳元")
+    @PostMapping(value = "/test")
+    public String test(){
+        return "test";
     }
 }
