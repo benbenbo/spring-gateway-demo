@@ -1,4 +1,2 @@
-# spring-gateway-demo
-
-# nacos 有关功能
-1.监听配置改动
+# gateway实战Demo
+1.实现简单的转发请求，将8082端口的请求转发到8081端口
