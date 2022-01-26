@@ -1,16 +1,16 @@
 spring:
   application:
     name: springboot2-nacos-config
-  cloud:
-    gateway:
-      enabled: true
-      routes:
-      - id: mdc-mvc-demo
-        uri: http://localhost:8081
-        predicates:
-        - Path=/mdc-mvc-demo/**
-#          filters:
-#          - StripPrefix= 1
+#  cloud:
+#    gateway:
+#      enabled: true
+#      routes:
+#      - id: mdc-mvc-demo
+#        uri: http://localhost:8081
+#        predicates:
+#        - Path=/mdc-mvc-demo/**
+#        filters:
+#        - StripPrefix= 1
 server:
   servlet:
     context-path: /spring-gateway-demo

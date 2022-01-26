@@ -1,0 +1,47 @@
+//转发到其他项目
+[{
+  "id":"mdc-mvc-demo",
+  "predicates":[
+    {
+      "name":"Path",
+      "args":{
+        "_genkey_0": "/mdc-mvc-demo/**"
+      }
+
+    }
+  ],
+  "filters":[],
+  // "filters":[
+  //     {
+  //         "name":"StripPrefix",
+  //         "args":{
+  //             "_genkey_0": 1
+  //         }
+
+  //     }
+  // ],
+  "uri":"http://localhost:8081"
+}]
+//转发到bilibili网站
+// [{
+//     "id":"bilibili",
+//     "predicates":[
+//         {
+//             "name":"Path",
+//             "args":{
+//                 "_genkey_0": "/**"
+//             }
+
+//         }
+//     ],
+//     "filters":[
+//         {
+//             "name":"StripPrefix",
+//             "args":{
+//                 "_genkey_0": 1
+//             }
+
+//         }
+//     ],
+//     "uri":"https://www.bilibili.com"
+// }]
